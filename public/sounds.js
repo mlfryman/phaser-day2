@@ -6,7 +6,7 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, 'sounds', { preload: preload, 
  * @param: is the URL of the image (relative)
  */
 function preload(){
-  game.load.image('bobafett', '/assets/pics/acryl_bobablast.png');
+  game.load.image('bobafett', '/assets/pics/bobafett.png');
   game.load.image('backscroll', '/assets/pics/backscroll.png');
   game.load.atlasJSONHash('bot', '/assets/sprites/running_bot.png', '/assets/sprites/running_bot.json');
 
